@@ -17,4 +17,3 @@ alias kgns='kubectl get namespaces'
 alias kdns='kubectl describe namespaces'
 alias kgsts='kubectl get statefulset'
 
-set -o vi
