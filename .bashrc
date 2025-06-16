@@ -1,5 +1,5 @@
-alias k='kubectl
-alias kex='kubectl exec -i -t'i'
+alias k='kubectl'
+alias kex='kubectl exec -i -t'
 alias klo='kubectl logs -f'
 alias klop='kubectl logs -f -p'
 alias kpf='kubectl port-forward'
