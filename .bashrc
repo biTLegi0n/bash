@@ -1,0 +1,20 @@
+alias k='kubectl
+alias kex='kubectl exec -i -t'i'
+alias klo='kubectl logs -f'
+alias klop='kubectl logs -f -p'
+alias kpf='kubectl port-forward'
+alias kg='kubectl get'
+alias kd='kubectl describe'
+alias kgpo='kubectl get pods'
+alias kdpo='kubectl describe pods'
+alias kgdep='kubectl get deployment'
+alias kddep='kubectl describe deployment'
+alias kgcm='kubectl get configmap'
+alias kdcm='kubectl describe configmap'
+alias kgsec='kubectl get secret'
+alias kdsec='kubectl describe secret'
+alias kgns='kubectl get namespaces'
+alias kdns='kubectl describe namespaces'
+alias kgsts='kubectl get statefulset'
+
+set -o vi
