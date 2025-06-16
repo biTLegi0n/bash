@@ -13,9 +13,9 @@ log() {
 log "Starting setup..."
 
 # Define variables
-DOWNLOAD_URL="https://github.com/biTLegi0n/bash/archive/refs/tags/0.1.0.tar.gz"
+DOWNLOAD_URL="https://github.com/biTLegi0n/bash/archive/refs/tags/0.2.0.tar.gz"
 TAR_FILE="bash_alias.tar.gz"
-EXTRACT_DIR="bash_aliases"
+EXTRACT_DIR="bash-0.2.0"
 
 # Create temporary directory
 TMP_DIR=$(mktemp -d)
